@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
-
-    <title>Signin Template for Bootstrap</title>
+    <meta name="description" content="APLIKASI PBAK IAIN KENDARI">
+    <meta name="author" content="TIM PENGEMBANG SISTEM TIPD IAIN KENDARI">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://appel.iainkendari.ac.id/favicon.ico">
+    <link rel="icon" type="image/png" href="https://appel.iainkendari.ac.id/favicon.ico">
+    <title>Login PBAK IAIN Kendari 2023</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
 
