@@ -16,4 +16,5 @@ use App\Http\Controllers\PesertaController;
 
 Route::get('/pbak/{gelombang}', [PesertaController::class, 'index']);
 Route::get('/pbak/{gelombang}/sinkron', [PesertaController::class, 'sinkron']);
+Route::get('/pbak/{gelombang}/import', [PesertaController::class, 'import']);
 Route::get('/peserta-pbak/kelompok/{kelompokId}', [PesertaController::class, 'peserta']);

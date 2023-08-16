@@ -110,7 +110,7 @@ class PesertaController extends Controller
         $peserta = Kelompok::all();
 
         // return $peserta;
-        $data['peserta'] = $peserta;
+        // $data['peserta'] = $peserta;
     }
 
     public function peserta($kelompokId)
