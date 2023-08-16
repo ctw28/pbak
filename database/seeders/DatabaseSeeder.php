@@ -14,29 +14,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // DB::table('tahun_akademiks')->insert([
-        //     ['tahun' => 2022, "semester" => "Genap", "sebutan" => "Tahun Akademik 2021/2022 Genap", "kode" => "20212"],
-        // ]);
-
-        // DB::table('pbaks')->insert([
-        //     'tahun_akademik_id' => 1,
-        //     'pbak_nama' => 'PBAK 2023',
-        //     'pbak_keterangan' => ''
-        // ]);
 
 
-        $kelompok = [];
-        for ($i = 1; $i <= 28; $i++) {
-            $kelompok[] = [
-                'pbak_id' => 1,
-                'kelompok_nama' => "Peleton " . $i,
-                'ketua' => '',
-                'keterangan' => ''
-            ];
-        }
-        DB::table('kelompoks')->insert($kelompok);
-
-        return;
+        // return;
         // \App\Models\User::factory(10)->create();
         $fatik = "Fakultas Tarbiyah dan Ilmu Keguruan";
         $febi = "Fakultas Ekonomi dan Bisnis Islam";
@@ -378,5 +358,27 @@ class DatabaseSeeder extends Seeder
             ]
 
         ]);
+
+        DB::table('tahun_akademiks')->insert([
+            ['tahun' => 2022, "semester" => "Genap", "sebutan" => "Tahun Akademik 2021/2022 Genap", "kode" => "20212"],
+        ]);
+
+        DB::table('pbaks')->insert([
+            'tahun_akademik_id' => 1,
+            'pbak_nama' => 'PBAK 2023',
+            'pbak_keterangan' => ''
+        ]);
+
+
+        $kelompok = [];
+        for ($i = 1; $i <= 28; $i++) {
+            $kelompok[] = [
+                'pbak_id' => 1,
+                'kelompok_nama' => "Peleton " . $i,
+                'ketua' => '',
+                'keterangan' => ''
+            ];
+        }
+        DB::table('kelompoks')->insert($kelompok);
     }
 }
