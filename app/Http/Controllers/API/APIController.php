@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\DataDiri;
 use App\Models\Mahasiswa;
 use App\Models\User;
+use App\Models\UserMahasiswa;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -68,6 +69,10 @@ class APIController extends Controller
                 "username" => $data->nim,
                 "password" => bcrypt($data->nim),
                 "user_role_id" => 3,
+            ]);
+            $userMahasiswa = UserMahasiswa::create([
+                "user_id" => $user->id,
+                "mahasiswa_id" => $mahasiswa->id,
             ]);
 
             DB::commit();

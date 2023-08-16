@@ -5,11 +5,38 @@ namespace App\Http\Controllers;
 use App\Models\Kelompok;
 use App\Models\Mahasiswa;
 use App\Models\Peserta;
+use App\Models\Rundown;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PesertaController extends Controller
 {
     //
+
+
+    public function dashboard()
+    {
+        // return Auth::user();
+        $title = 'Dashboard';
+        $peserta = Peserta::with([
+            'mahasiswa.dataDiri',
+            'mahasiswa.prodi',
+            'kelompok.peserta.mahasiswa.dataDiri',
+            'kelompok.peserta.mahasiswa.prodi',
+            'kelompok.pemandu'
+        ])
+            ->where('mahasiswa_id', Auth::user()->userMahasiswa->mahasiswa_id)
+            ->first();
+        // $data = 
+        // return $peserta;
+        return view('peserta.dashboard', compact('peserta', 'title'));
+    }
+    public function rundown()
+    {
+        $title = 'Rundown / Absensi';
+        $rundown = Rundown::all();
+        return view('peserta.rundown', compact('title', 'rundown'));
+    }
 
     public function index($gelombang)
     {

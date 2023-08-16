@@ -374,7 +374,7 @@ class DatabaseSeeder extends Seeder
         for ($i = 1; $i <= 28; $i++) {
             $kelompok[] = [
                 'pbak_id' => 1,
-                'kelompok_nama' => "Peleton " . $i,
+                'kelompok_nama' => "Pleton " . $i,
                 'ketua' => '',
                 'keterangan' => ''
             ];

@@ -24,4 +24,8 @@ class Kelompok extends Model
     {
         return $this->hasMany('App\Models\Peserta');
     }
+    public function pemandu()
+    {
+        return $this->hasMany('App\Models\KelompokPemandu');
+    }
 }

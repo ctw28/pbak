@@ -16,10 +16,15 @@ class Mahasiswa extends Model
         'master_prodi_id',
     ];
 
-    // public function userMahasiswa()
-    // {
-    //     return $this->hasOne('App\Models\UserMahasiswa');
-    // }
+    public function userMahasiswa()
+    {
+        return $this->hasOne('App\Models\UserMahasiswa');
+    }
+    public function peserta()
+    {
+        return $this->hasOne('App\Models\Peserta');
+    }
+
     public function dataDiri()
     {
         return $this->belongsTo('App\Models\DataDiri');
