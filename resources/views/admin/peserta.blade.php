@@ -11,7 +11,9 @@
 <body>
     <div class="container">
         <h1 class="mb-3">Daftar Peserta {{$kelompok->kelompok_nama}}</h1>
-        <table class="table table-striped table-hover">
+        <button class="btn btn-primary" onclick="copyTable()">Salin Tabel</button>
+
+        <table class="table table-striped table-hover" id="myTable">
             <thead>
                 <th>No</th>
                 <th>NIM</th>
@@ -34,7 +36,22 @@
             </tbody>
         </table>
     </div>
-
+    <script>
+        function copyTable() {
+            var body = document.body,
+                range, sel;
+            var el = document.getElementById("myTable");
+            if (document.createRange && window.getSelection) {
+                range = document.createRange();
+                sel = window.getSelection();
+                sel.removeAllRanges();
+                range.selectNodeContents(el);
+                sel.addRange(range);
+            }
+            document.execCommand("Copy");
+            alert('sudah tercopy');
+        }
+    </script>
 </body>
 
 </html>
