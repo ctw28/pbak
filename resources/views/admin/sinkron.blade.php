@@ -18,8 +18,8 @@
 
         let dataSend = new FormData()
         dataSend.append('filter', '20231')
-        let sendRequest = await fetch("https://sia.iainkendari.ac.id/konseling_api/eksport_mahasiswa_dari_sia_tambahan", {
-            // let sendRequest = await fetch("https://sia.iainkendari.ac.id/konseling_api/eksport_mahasiswa_dari_sia", {
+        // let sendRequest = await fetch("https://sia.iainkendari.ac.id/konseling_api/eksport_mahasiswa_dari_sia_tambahan", {
+        let sendRequest = await fetch("https://sia.iainkendari.ac.id/konseling_api/eksport_mahasiswa_dari_sia", {
             method: "POST",
             body: dataSend
         })
