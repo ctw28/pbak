@@ -90,10 +90,10 @@ class PesertaController extends Controller
         $kelompoks = Kelompok::all();
         $awalL = 0;
         $awalP = 0;
-        $pesertaL = 15;
-        $pesertaP = 34;
-        $kelipatanL = 15;
-        $kelipatanP = 34;
+        $pesertaL = 14;
+        $pesertaP = 29;
+        $kelipatanL = 14;
+        $kelipatanP = 29;
         // $pesertaL = 14;
         // $pesertaP = 33;
         // $coba = 2;

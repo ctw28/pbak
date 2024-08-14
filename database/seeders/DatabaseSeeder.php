@@ -116,7 +116,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "ESY",
                 "prodi_nama" => "Ekonomi Syariah",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_urutan" => 1,
                 "prodi_keterangan" => "keterangan"
             ],
@@ -125,7 +127,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "HI",
                 "prodi_nama" => "Hukum Keluarga Islam (Ahwal Syakhshiyyah)",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -133,7 +137,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "MPI",
                 "prodi_nama" => "Manajemen Pendidikan Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -141,7 +147,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PAIS",
                 "prodi_nama" => "Pendidikan Agama Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -149,7 +157,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "BING",
                 "prodi_nama" => "Tadris Bahasa Inggris",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -157,7 +167,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "BLG",
                 "prodi_nama" => "Tadris Biologi",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -165,7 +177,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "FSK",
                 "prodi_nama" => "Tadris Fisika",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -173,7 +187,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "IPA",
                 "prodi_nama" => "Tadris IPA",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -181,7 +197,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "KI",
                 "prodi_nama" => "Manajemen Pendidikan Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -189,7 +207,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "MTK",
                 "prodi_nama" => "Tadris Matematika",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -197,7 +217,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PAI",
                 "prodi_nama" => "Pendidikan Agama Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -205,7 +227,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PAID",
                 "prodi_nama" => "Pendidikan Agama Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan",
                 "is_aktif" => false
             ],
@@ -214,7 +238,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PBA",
                 "prodi_nama" => "Pendidikan Bahasa Arab",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -222,7 +248,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PGMI",
                 "prodi_nama" => "Pendidikan Guru Madrasah Ibtidaiyah",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -230,7 +258,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PGMID",
                 "prodi_nama" => "Pendidikan Guru Madrasah Ibtidaiyah",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -238,7 +268,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PGRA",
                 "prodi_nama" => "Pendidikan Islam Anak Usia Dini",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -246,7 +278,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PGRAD",
                 "prodi_nama" => "Pendidikan Guru Raudhatul Athfal",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan",
                 "is_aktif" => false
             ],
@@ -255,7 +289,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "AS",
                 "prodi_nama" => "Hukum Keluarga Islam (Ahwal Syakhshiyyah)",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -263,7 +299,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "HTN",
                 "prodi_nama" => "Hukum Tatanegara (Siyasah Syar'iyyah)",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -271,7 +309,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "MU",
                 "prodi_nama" => "Hukum Ekonomi Syariah (Mua'malah)",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -279,7 +319,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "BPI",
                 "prodi_nama" => "Bimbingan Penyuluhan Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -287,7 +329,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "IHD",
                 "prodi_nama" => "Ilmu Hadis",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan",
                 "is_aktif" => false
             ],
@@ -296,7 +340,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "IQT",
                 "prodi_nama" => "Ilmu Al-Qur'an dan Tafsir",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -304,7 +350,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "KPI",
                 "prodi_nama" => "Komunikasi dan Penyiaran Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -312,7 +360,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "MD",
                 "prodi_nama" => "Manajemen Dakwah",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -320,7 +370,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PMI",
                 "prodi_nama" => "Pengembangan Masyarakat Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -328,7 +380,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "SKI",
                 "prodi_nama" => "Sejarah dan Kebudayaan Islam",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan",
                 "is_aktif" => false
             ],
@@ -337,7 +391,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "EI",
                 "prodi_nama" => "Ekonomi Syariah",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -345,7 +401,9 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "MBS",
                 "prodi_nama" => "Manajemen Bisnis Syariah",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ],
             [
@@ -353,25 +411,27 @@ class DatabaseSeeder extends Seeder
                 "prodi_kode" => "PBS",
                 "prodi_nama" => "Perbankan Syariah",
                 "prodi_visi" => "visi",
-                "prodi_misi" => "misi", "prodi_urutan" => 1, "is_aktif" => true,
+                "prodi_misi" => "misi",
+                "prodi_urutan" => 1,
+                "is_aktif" => true,
                 "prodi_keterangan" => "keterangan"
             ]
 
         ]);
 
         DB::table('tahun_akademiks')->insert([
-            ['tahun' => 2022, "semester" => "Genap", "sebutan" => "Tahun Akademik 2021/2022 Genap", "kode" => "20212"],
+            ['tahun' => 2024, "semester" => "Ganjil", "sebutan" => "Tahun Akademik 2024/2025 Ganjil", "kode" => "20241"],
         ]);
 
         DB::table('pbaks')->insert([
             'tahun_akademik_id' => 1,
-            'pbak_nama' => 'PBAK 2023',
+            'pbak_nama' => 'PBAK 2024',
             'pbak_keterangan' => ''
         ]);
 
 
         $kelompok = [];
-        for ($i = 1; $i <= 28; $i++) {
+        for ($i = 1; $i <= 35; $i++) {
             $kelompok[] = [
                 'pbak_id' => 1,
                 'kelompok_nama' => "Pleton " . $i,

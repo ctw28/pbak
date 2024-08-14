@@ -22,10 +22,36 @@ class APIController extends Controller
             // $foto = json_decode($data->foto);
 
             $prodis = [
-                "ESY", "HI", "MPI", "PAIS", "BING", "BLG", "FSK", "IPA", "KI",
-                "MTK", "PAI", "PAID", "PBA", "PGMI", "PGMID", "PGRA", "PGRAD",
-                "AS", "HTN", "MU", "BPI", "IHD", "IQT", "KPI", "MD", "PMI", "SKI",
-                "EI", "MBS", "PBS"
+                "ESY",
+                "HI",
+                "MPI",
+                "PAIS",
+                "BING",
+                "BLG",
+                "FSK",
+                "IPA",
+                "KI",
+                "MTK",
+                "PAI",
+                "PAID",
+                "PBA",
+                "PGMI",
+                "PGMID",
+                "PGRA",
+                "PGRAD",
+                "AS",
+                "HTN",
+                "MU",
+                "BPI",
+                "IHD",
+                "IQT",
+                "KPI",
+                "MD",
+                "PMI",
+                "SKI",
+                "EI",
+                "MBS",
+                "PBS"
             ];
 
             $cariProdi = $data->idprodi;
